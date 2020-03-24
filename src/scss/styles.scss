@@ -1,0 +1,30 @@
+// override bootstrap SCSS variable: (example: override node_modules/bootstrap/scss/_variables.scss)
+$theme-colors: (
+  "primary": #d95700
+);
+
+$body-bg: #ededed;
+
+.jumbotron {
+  background-color: #fff !important;
+  border-top: 3px solid rgb(219, 219, 219);
+}
+
+// import all of Bootstrap SCSS (you can see it in the node_modules folder):
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// or, to just import what you need, include minimum required + overrides + optionals:
+
+// // minimum required:
+// @import "../node_modules/bootstrap/scss/functions";
+// @import "../node_modules/bootstrap/scss/variables";
+// @import "../node_modules/bootstrap/scss/mixins";
+
+// overrides:
+// $theme-colors: map-remove($theme-colors, "info", "light", "dark");
+
+// // and optionals:
+// @import "../node_modules/bootstrap/scss/root";
+// @import "../node_modules/bootstrap/scss/reboot";
+// @import "../node_modules/bootstrap/scss/type";
+// // ...
