@@ -1,4 +1,4 @@
-# Learning Bootstrap
+# Learning Bootstrap 4 (+SCSS)
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
