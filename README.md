@@ -37,3 +37,5 @@ gulp
 - [visually hidden but not hidden (and optionally focusable) to screen readers](https://getbootstrap.com/docs/5.1/helpers/visually-hidden/): `visually-hidden` and `visually-hidden-focusable`
 
 - [animated accordions](https://getbootstrap.com/docs/5.1/components/accordion/)
+
+- but also for some reason [inputs with floating labels like Material UI](https://getbootstrap.com/docs/5.1/forms/floating-labels/), which don't seem to be very accessible since not-filled visually look like filled-already
