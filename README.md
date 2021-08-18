@@ -29,3 +29,11 @@ gulp
 ## Example dropdown and table
 
 <https://codepen.io/hchiam/pen/NWGPwPy>
+
+## Bootstrap 5 has some exciting stuff
+
+- [placeholders AKA skeleton UI](https://getbootstrap.com/docs/5.1/components/placeholders/): `<p aria-hidden="true" class="placeholder-glow"><span class="placeholder col-7"></span><span class="placeholder col-4"></span></p>`
+
+- [visually hidden but not hidden (and optionally focusable) to screen readers](https://getbootstrap.com/docs/5.1/helpers/visually-hidden/): `visually-hidden` and `visually-hidden-focusable`
+
+- [animated accordions](https://getbootstrap.com/docs/5.1/components/accordion/)
